@@ -7,7 +7,7 @@ mkdir -p /opt/screenconnect/
 tar xzf /tmp/sc/sc.tar.gz --strip-components=1 -C /tmp/sc/install/
 
 #Copy screenconnect runtimes
-cp -r /tmp/sc/install/screenconnect/* /opt/screenconnect/
+cp -r /tmp/sc/install/ScreenConnect/* /opt/screenconnect/
 
 #Copy bundled mono
 cp /tmp/sc/install/Installer/mono_linux_02_x86_64 /opt/screenconnect/App_Runtime/bin/mono
