@@ -19,4 +19,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 CMD ["mono", "/opt/screenconnect/Bin/Elsinore.ScreenConnect.Service.exe", "startservices", "7", "1", "10"]
 
-EXPOSE 8040 8042
+EXPOSE 8040 8041
